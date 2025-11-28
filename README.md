@@ -1,70 +1,81 @@
-```md
-# 📊 Medicine Sales Prediction in iHerb
+# **Medicine Sales Prediction on iHerb**
 
-👨‍💻 **Author:** Makhabbat Khaval
-Predicting medicine product sales using machine learning
+**Author:** Makhabbat Khaval  
 
----
-
-## 📝 Overview
-This project focuses on building a machine learning model to predict daily medicine sales on iHerb based on product feedback, historical sales volume, and demand indicators.  
-The objective is to help businesses forecast demand, optimize inventory, and support effective data-driven decision-making.
-
-The workflow includes:
-- Data preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Feature engineering  
-- Model training and evaluation  
-- Model comparison  
-- Final predictions  
+Predicting daily medicine product sales using machine learning based on product feedback, historical sales, and demand indicators.
 
 ---
 
-## 📂 Dataset Description
-The dataset includes:
+## **Overview**
+This project aims to build a machine learning model to forecast daily sales of medicine products on iHerb. The predictions help businesses:  
 
-- **Name of product**  
+- **Forecast demand accurately**  
+- **Optimize inventory**  
+- **Support data-driven decision making**  
+
+**Workflow includes:**  
+1. **Data preprocessing**  
+2. **Exploratory Data Analysis (EDA)**  
+3. **Feature engineering**  
+4. **Model training and evaluation**  
+5. **Model comparison**  
+6. **Final predictions**
+
+---
+
+## **Dataset Description**
+The dataset contains the following features:  
+
+- **Product Name**  
 - **Rating**  
-- **Number of review**  
+- **Number of Reviews**  
 - **Price (tenge)**  
-- **Old price (tenge)**  
-- **Sold**  
+- **Old Price (tenge)**  
+- **Units Sold**  
 - **Demand**  
-- **Discount**
+- **Discount**  
 
-Data cleaning steps included handling missing values, treating outliers, and encoding categorical variables.
+**Data Cleaning Steps:**  
+- **Handling missing values**  
+- **Treating outliers**  
+- **Encoding categorical variables**
 
 ---
 
-## 🛠️ Tools & Libraries
+## **Tools & Libraries**
 - **Python**  
 - **pandas**, **numpy**  
 - **matplotlib**, **seaborn**  
 - **scikit-learn**  
-- **Selenium** (used for web scraping)
+- **Selenium** (for web scraping)
 
 ---
 
-## 🤖 Machine Learning Methods
+## **Machine Learning Methods**
 
 ### **Models**
 - **Linear Regression** – baseline model  
-- **Random Forest Regressor** – captures nonlinear patterns  
+- **Random Forest Regressor** – captures nonlinear relationships
 
 ### **Hyperparameter Tuning**
-- **GridSearchCV** – exhaustive search  
-- **RandomizedSearchCV** – faster randomized optimization  
+- **GridSearchCV** – exhaustive parameter search  
+- **RandomizedSearchCV** – faster randomized optimization
 
 ---
 
-## 📈 Model Performance
-The best-performing model achieved:
+## **Model Performance**
+The best-performing model achieved:  
 
-- **MAE:** 0.0059291065736969345  
-- **MSE:** 0.00018374870545801255  
-- **R²:** 0.9298278924596637  
+- **MAE:** 0.00593  
+- **MSE:** 0.00018  
+- **R²:** 0.9298  
 
-This indicates strong predictive performance and a good fit to the data.
-```
+This demonstrates **strong predictive performance** and **good model fit**.
+
+---
+
+## **Conclusion**
+The project successfully predicts medicine sales with high accuracy, demonstrating the effectiveness of machine learning for demand forecasting and inventory optimization.
+
 
 
