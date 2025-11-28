@@ -1,79 +1,70 @@
-📊 Medicine Sales Prediction in iHerb
+```md
+# 📊 Medicine Sales Prediction in iHerb
 
-👨‍💻 Author: Makhabbat Khaval
-
-
+👨‍💻 **Author:** Makhabbat Khaval
 Predicting medicine product sales using machine learning
 
-📝 Overview
+---
 
-This project focuses on building a machine learning model to predict daily medicine sales on iHerb based on product feedback, historical sales volume, and demand indicators.
-The objective is to help businesses forecast demand, optimize inventory, and support more effective data-driven decision-making.
+## 📝 Overview
+This project focuses on building a machine learning model to predict daily medicine sales on iHerb based on product feedback, historical sales volume, and demand indicators.  
+The objective is to help businesses forecast demand, optimize inventory, and support effective data-driven decision-making.
 
 The workflow includes:
+- Data preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Model training and evaluation  
+- Model comparison  
+- Final predictions  
 
-Data preprocessing
+---
 
-Exploratory Data Analysis (EDA)
-
-Feature engineering
-
-Model training and evaluation
-
-Model comparison
-
-Final predictions
-
-📂 Dataset Description
-
+## 📂 Dataset Description
 The dataset includes:
 
-- Name of product
-- Rating
-- Number of review
-- Price (tenge)
-- Old price (tenge)
-- Sold
-- Demand
-- Discount
+- **Name of product**  
+- **Rating**  
+- **Number of review**  
+- **Price (tenge)**  
+- **Old price (tenge)**  
+- **Sold**  
+- **Demand**  
+- **Discount**
 
 Data cleaning steps included handling missing values, treating outliers, and encoding categorical variables.
 
-🛠️ Tools & Libraries
+---
 
-Python
+## 🛠️ Tools & Libraries
+- **Python**  
+- **pandas**, **numpy**  
+- **matplotlib**, **seaborn**  
+- **scikit-learn**  
+- **Selenium** (used for web scraping)
 
-pandas, numpy
+---
 
-matplotlib, seaborn
+## 🤖 Machine Learning Methods
 
-scikit-learn
-Selenium (used for web scraping)
+### **Models**
+- **Linear Regression** – baseline model  
+- **Random Forest Regressor** – captures nonlinear patterns  
 
-🤖 Machine Learning Methods
+### **Hyperparameter Tuning**
+- **GridSearchCV** – exhaustive search  
+- **RandomizedSearchCV** – faster randomized optimization  
 
-The following models and optimization techniques were used:
+---
 
-Models
-
-Linear Regression – baseline performance
-
-Random Forest Regressor – ensemble method for capturing nonlinear patterns
-
-Hyperparameter Tuning
-
-GridSearchCV – exhaustive parameter search
-
-RandomizedSearchCV – randomized search for faster optimization
-
-📈 Model Performance
-
+## 📈 Model Performance
 The best-performing model achieved:
 
-mae: 0.0059291065736969345
-mse: 0.00018374870545801255
-r2: 0.9298278924596637
+- **MAE:** 0.0059291065736969345  
+- **MSE:** 0.00018374870545801255  
+- **R²:** 0.9298278924596637  
 
 This indicates strong predictive performance and a good fit to the data.
+```
 
 
