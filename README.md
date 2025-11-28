@@ -31,8 +31,7 @@ The dataset contains the following features:
 - **Number of Reviews**  
 - **Price (tenge)**  
 - **Old Price (tenge)**  
-- **Units Sold**  
-- **Demand**  
+- **Units Sold**   
 - **Discount**  
 
 **Data Cleaning Steps:**  
