@@ -66,10 +66,8 @@ RandomizedSearchCV – randomized search for faster optimization
 
 The best-performing model achieved:
 
-MAE: 329.10
-
-MSE: 2,920,324.87
-
-R²: 0.8209
+mae: 0.0059291065736969345
+mse: 0.00018374870545801255
+r2: 0.9298278924596637
 
 This indicates strong predictive performance and a good fit to the data.
