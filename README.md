@@ -1,4 +1,8 @@
 📊 Medicine Sales Prediction in iHerb
+👨‍💻 Author
+
+Makhabbat Khaval
+
 
 Predicting medicine product sales using machine learning
 
@@ -73,7 +77,4 @@ r2: 0.9298278924596637
 
 This indicates strong predictive performance and a good fit to the data.
 
-👨‍💻 Author
 
-Makhabbat Khaval
-Suleyman Demirel University
