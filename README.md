@@ -58,23 +58,37 @@ The dataset contains the following features:
 
 ### **Hyperparameter Tuning**
 - **GridSearchCV** – exhaustive parameter search  
-- **RandomizedSearchCV** – faster randomized optimization
 
 ---
 
-## **Model Performance**
-The best-performing model achieved:  
+Conclusion
 
-- **MAE:** 0.00593  
-- **MSE:** 0.00018  
-- **R²:** 0.9298  
+What we predicted
 
-This demonstrates **strong predictive performance** and **good model fit**.
+We predicted whether a product on iHerb Kazakhstan falls into High Demand or Low Demand based on its price, discount, rating, number of reviews, and engineered features.
 
----
+What we found
 
-## **Conclusion**
-The project successfully predicts medicine sales with high accuracy, demonstrating the effectiveness of machine learning for demand forecasting and inventory optimization.
+The tuned Random Forest classifier achieved the best performance.
 
+Accuracy : 0.750
 
+ROC-AUC : 0.746
 
+The most important features driving high demand were:
+
+Number of review: 0.417
+Price(tenge): 0.205
+Old price(tenge): 0.199*.
+Logistic Regression served as a useful baseline — if Random Forest only slightly outperforms it, the relationship between features and demand is fairly linear.
+
+Business insights
+
+Discount is a demand driver — products with higher discounts tend to show higher short-term sales, suggesting price sensitivity among iHerb KZ customers.
+Rating and reviews matter — highly-rated, well-reviewed products are more likely to be in the high-demand group, confirming that social proof drives purchases.
+Price alone is not enough — the feature importance chart shows that raw price is less predictive than discount percentage, meaning customers respond more to perceived savings than absolute price.
+Limitations
+
+The Sold data is a short-term snapshot (products recently bought), not total sales history.
+Data was collected from the iHerb Kazakhstan specials/discount page only — results may not generalize to full-price products.
+A larger dataset collected over multiple time periods would improve model stability.
